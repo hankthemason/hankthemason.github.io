@@ -2,9 +2,8 @@
 <p>Now that we have a basic working map, let’s use it to show some data! The data we are going to be using comes from <a href="https://projects.propublica.org/nypd-ccrb/">ProPublica’s</a> release of over 33,300 records of misconduct against the NYPD, dating back to 1985. The actual data parsing is outside the scope of this article — instead, we’ll be using a .json file that I made from the data and can be downloaded in this project’s <a href="https://github.com/hankthemason/nyc-precinct-map-tutorial-pt2/tree/main/src/data">GitHub repo</a>.</p>
 <p>First let’s work on adding to our <code class="language-text">App</code> component, since that is where we pass down props to our <code class="language-text">Map</code> component, and we’ll need to pass it some new data. We can import the .json file at the top of our file with the following line of code:</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token keyword">default</span> <span class="token keyword">as</span> allegationsPerPrecinct <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./data/allegationsByPrecinct.json'</span></code></pre></div>
-<br>
-Then we’ll update how we render our `Map `component, by passing it the `allegationsPerPrecinct` object we just imported as a new prop.<br>
-<br>
+<p>Then we’ll update how we render <code class="language-text">Map</code> component, by passing it the <code class="language-text">allegationsPerPrecinct</code> object we just imported as a new prop.<br>
+<br></p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>Map geoJson<span class="token operator">=</span><span class="token punctuation">{</span>data<span class="token punctuation">}</span> allegationsPerPrecinct<span class="token operator">=</span><span class="token punctuation">{</span>allegationsPerPrecinct<span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">></span></code></pre></div>
 <br>
 Here’s what the finished App component looks like:<br>
