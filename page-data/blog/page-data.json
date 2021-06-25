@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-blog-js","path":"/blog/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"date":"2021-06-24","title":"Build a map of NYPD precincts with React & D3, Part 1","description":"Use D3 to build interactive maps in React.","path":"/d3_maps_pt1"}}}]}},"pageContext":{}},"staticQueryHashes":[]}
