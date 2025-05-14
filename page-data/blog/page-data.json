@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-blog-js","path":"/blog/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"date":"2021-06-28","title":"Render a custom legend with Chart.js","description":"How to render a custom legend with Chart.js and React hooks","path":"/blog/chartjs_custom_legend"}}},{"node":{"frontmatter":{"date":"2021-06-25","title":"Build a map of NYPD precincts with React & D3, Part 2","description":"Use D3 to build interactive maps in React.","path":"/blog/d3_maps_pt2"}}},{"node":{"frontmatter":{"date":"2021-06-24","title":"Build a map of NYPD precincts with React & D3, Part 1","description":"Use D3 to build interactive maps in React.","path":"/blog/d3_maps_pt1"}}}]}},"pageContext":{}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-pages-blog-js",
+    "path": "/blog/",
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"date":"2021-06-25","title":"Build a map of NYPD precincts with React & D3, Part 2","description":"Use D3 to build interactive maps in React.","path":"/blog/d3_maps_pt2"}}},{"node":{"frontmatter":{"date":"2021-06-24","title":"Build a map of NYPD precincts with React & D3, Part 1","description":"Use D3 to build interactive maps in React.","path":"/blog/d3_maps_pt1"}}}]}},"pageContext":{}},
+    "staticQueryHashes": []}
